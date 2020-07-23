@@ -24,6 +24,10 @@ int main() {
     HighFink highFink(manager, "Eduardo Gaff");
     outWrapper(highFink);
 
+    HighFink highFink_jr;
+    highFink_jr = highFink;
+    outWrapper(highFink_jr);
+
     std::cout << "Press a key for next phase:" << std::endl;
     std::cin.get();
 
