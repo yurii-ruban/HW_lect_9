@@ -16,8 +16,8 @@ public:
     Manager(const std::string& fn, const std::string& ln,const std::string& j, int ico = 0);
     Manager(const AbstractEmployee& e, int ico);
     Manager(const Manager& m);
-    virtual void showAll() const;
-    virtual void setAll();
+    virtual void showAll() const override;
+    virtual void setAll() override;
 };
 
 #endif

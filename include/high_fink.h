@@ -12,8 +12,8 @@ public:
     HighFink(const Fink& f, int ico);
     HighFink(const Manager& m, const std::string& rpo);
     HighFink(const HighFink& h);
-    virtual void showAll() const;
-    virtual void setAll();
+    virtual void showAll() const override;
+    virtual void setAll() override;
 };
 
 #endif

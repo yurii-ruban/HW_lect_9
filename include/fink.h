@@ -15,9 +15,9 @@ public:
     Fink();
     Fink(const std::string& fn, const std::string& ln, const std::string& j, const std::string& rpo);
     Fink(const AbstractEmployee& e, const std::string& rpo);
-    Fink(const Fink & e);
-    virtual void showAll() const;
-    virtual void setAll();
+    Fink(const Fink& e);
+    virtual void showAll() const override;
+    virtual void setAll() override;
 };
 
 #endif
